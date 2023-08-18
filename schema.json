@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+      "zip": {
+        "type": "string",
+        "pattern": "^[0-9]{5}$"
+      },
+      "product_id": {
+        "type": "string"
+      }
+    },
+    "required": ["zip", "product_id"]
+  }
+  
